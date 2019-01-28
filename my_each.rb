@@ -1,9 +1,12 @@
+ collection = [1, 2, 3, 4]
+
 def my_each(array)
-  collection = [1, 2, 3, 4]
+
   i = 0 
-    while i < collection.length 
+  while i < collection.length 
       yield [i]
-      
+   i += 1 
+   
     
     
     
